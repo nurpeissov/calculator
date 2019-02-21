@@ -1,0 +1,1 @@
+It is simple calculator based on framework Flask

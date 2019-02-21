@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <form method="post" name="calculator">
+        <label for="number1">First Number</label>
+        <input type="text" name="number1" id="number1">
+        
+        <label for="number2">Secnond Number:</label>
+        <input type="text" name="number2" id="number2">
+        <select name="operator">
+			<option>Add</option>
+			<option>Substract</option>
+			<option>Multiply</option>
+			<option>Divide</option> 
+		</select>
+		<br>
+		<input type="submit" value="Calculate"/>
+    </form>
+	{% if result %}
+		Result is: {{ result }}
+	{% endif %}
+    </body>
+</html>
